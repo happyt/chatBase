@@ -1,0 +1,15 @@
+{
+    "name": "NodeSender",
+    "version": "0.0.2",
+    "description": "Simple cli",
+    "main": "viz.js",
+    "dependencies": {
+        "readline": "0.0.3",
+        "net": "1.0.1",
+        "socket.io": "0.9.16"
+
+    },
+    "author": "IanM",
+    "license": "BSD",
+    "private": true
+}

@@ -1,0 +1,1 @@
+First attempt to connect via web socket to TCP socket.
