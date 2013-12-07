@@ -122,6 +122,4 @@ module.exports.Viz = Viz;
 
 function dlog(data) {
     console.log(">>> " + data);
-}/**
- * Created by Mortoni on 20/11/13.
- */
+}
