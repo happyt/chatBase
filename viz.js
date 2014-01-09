@@ -10,7 +10,9 @@ var app = require('http').createServer(handler)
     , io = require('socket.io').listen(app, {log: false})
     , fs = require('fs');
 
-app.listen(7777);
+var portNo = 7788;
+
+app.listen(portNo);
 
 function handler (req, res) {
     fs.readFile(__dirname + '/index.html',
@@ -47,7 +49,8 @@ rl.question('Which Viz?', function(answer) {
 })
 
    */
-console.log('Wait for commands...("quit" to exit)');
+console.log('\nBrowse to port ' + portNo);
+console.log('\nWaiting for commands...("quit" to exit)');
 
 rl.on('line', function(cmd) {
 
@@ -73,8 +76,8 @@ rl.on('line', function(cmd) {
             viz.destroy();
         } else if (cmd === "e") {
             viz.end();
-        } else if (cmd === "z") {
-            viz.sendCommand("MAIN VERSION");
+        } else {
+            viz.sendCommand(cmd);
         }
         //    console.log('You typed:', cmd);
         //    console.log('Type "quit" to exit');

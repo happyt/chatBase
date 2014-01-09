@@ -45,6 +45,10 @@ var Viz = {
                 dlog('client open');
             });
 
+        this.socket.on('data', function(data) {
+            dlog('received: ' + data);
+        });
+
         this.socket.on('end', function() {
             this.live = false;
             dlog('client ended');
@@ -103,6 +107,11 @@ var Viz = {
     },
 
     end: function() {
+        this.live = false;
+        this.socket.end();
+    },
+
+    close: function() {
         this.live = false;
         this.socket.end();
     },
