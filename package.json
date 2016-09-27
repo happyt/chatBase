@@ -1,14 +1,14 @@
 {
-    "name": "NodeSender",
-    "version": "0.0.2",
-    "description": "Simple cli",
-    "main": "viz.js",
-    "dependencies": {
-        "readline": "0.0.3",
-        "net": "1.0.1",
-        "socket.io": "0.9.16"
-    },
-    "author": "IanM",
-    "license": "BSD",
-    "private": true
+  "name": "feedmonitor",
+  "version": "0.0.2",
+  "description": "Simple check on XML feeds",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "socket.io": "0.9.16"
+  },
+  "author": "IanM",
+  "license": "BSD",
+  "private": true
 }
