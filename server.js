@@ -15,7 +15,7 @@ var bodyParser = require("body-parser");
 // web server
 //
 app.use(express.static(__dirname + "/public"));
-app.use(bodyParser.json()); // for parsing application/json
+app.use(bodyParser.json());                         // for parsing application/json
 app.use(bodyParser.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded
 
 // web port

@@ -2,10 +2,10 @@
  * Created by Mortoni on 07/12/13.
  */
 
-var MongoClient = require('mongodb').MongoClient
-    , format = require('util').format;
+var MongoClient = require('mongodb').MongoClient,
+    format = require('util').format;
 
-MongoClient.connect('mongodb://hemdatiod340:27017/logger', function(err, db) {
+   MongoClient.connect('mongodb://hemdatiod340:27017/logger', function(err, db) {
     if(err) throw err;
 
     var collection = db.collection('messages');

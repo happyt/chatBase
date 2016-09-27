@@ -1,6 +1,6 @@
 ## Feeds monitoring
 
-This project aims to watchone or more JSON feeds and log the times of any changes; I'd like to monitoor some golf feeds to see the delays between them. Some may be XML
+This project aims to watch one or more JSON feeds and log the times of any changes; I'd like to monitoor some golf feeds to see the delays between them. Some may be XML
 
 The plan is to do, 
 - add a set of urls to the database
