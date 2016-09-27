@@ -8,4 +8,4 @@ This project just keeps a simple chat server up to date
 Add sometime,
 - message object types
 - add each person's name
-- add poositions?
+- add positions?
