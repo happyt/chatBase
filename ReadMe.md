@@ -1,18 +1,11 @@
-## Feeds monitoring
+## Chatbase
 
-This project aims to watch one or more JSON feeds and log the times of any changes; I'd like to monitoor some golf feeds to see the delays between them. Some may be XML
+This project just keeps a simple chat server up to date
 
-The plan is to do, 
-- add a set of urls to the database
-- log results to database
-- open socket server to show changes
-- simple web page to list the recent chhanges
-- compare feed timings
+- updated with socket.io v1
+- updated with express v4
 
-Delete the Viz stuff...
-- Currently creates the Viz socket and web socket and just passes some pre set commands over.
-
-??
-- Added tests for monitoring/redirecting a UDP stream and writing messages to mongodb
-
-
+Add sometime,
+- message object types
+- add each person's name
+- add poositions?

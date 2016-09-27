@@ -1,7 +1,7 @@
 {
-  "name": "feedmonitor",
+  "name": "chatbase",
   "version": "0.0.2",
-  "description": "Simple check on XML feeds",
+  "description": "Simple chat using socket.io",
   "main": "server.js",
   "dependencies": {
     "body-parser": "^1.15.2",
@@ -9,6 +9,6 @@
     "socket.io": "^1.4.8"
   },
   "author": "IanM",
-  "license": "BSD",
+  "license": "MIT",
   "private": true
 }
