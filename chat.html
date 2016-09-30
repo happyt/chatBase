@@ -14,6 +14,20 @@
     </style>
   </head>
   <body>
+    <div>
+      <div id="mst">
+        mst...
+      </div>
+      <div id="leeds">
+        leeds...
+      </div>
+      <div id="ssn">
+        ssn...
+      </div>
+      <div id="default">
+        default...
+      </div>
+    </div>
     <ul id="messages"></ul>
     <form action="">
       <input id="m" autocomplete="off" /><button>Send</button>
@@ -28,7 +42,25 @@
         return false;
       });
       socket.on('chat', function(msg){
-        $('#messages').append($('<li>').text(msg));
+   //     $('#messages').append($('<li>').text(msg.title));
+        switch(msg.title) {
+          case "mst":
+              $('#mst').html(msg.time);  
+              for(var i = 1; i <= msg.matches.length; i++) {
+                $('#mst').append('<div id="page' + i + '" class="score">' + msg.matches[i].result + '</ div>' )
+              }  
+              break;
+          case "ssn":
+              $('#ssn').html(msg.time); 
+              break;     
+          case "leeds":
+              $('#leeds').html(msg.time);      
+              break;
+          default:
+              $('#default').html(msg.time);
+              break; 
+        }
+        
       });
     </script>
   </body>

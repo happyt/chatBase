@@ -1,0 +1,1457 @@
+{
+    "event": {
+        "tournament": {
+            "tournid": 2016076,
+            "name": "RYDER CUP 2016",
+            "numofrounds": 5,
+            "currentround": 1,
+            "timestamp": "30-09-2016 16:23:11",
+            
+        },
+        "round": {
+            "no": 1,
+            "usa": 1,
+            "europe": 0,
+            "matches": {
+                "match": [
+                    {
+                        "no": 2,
+                        "matchstatus": "Playing",
+                        "matchtype": "Foursomes",
+                        "teetime": "07:50:00.0000000",
+                        "eur": "1 UP",
+                        "eur_val": 1,
+                        "holesplayed": 15,
+                        "usa": "1 DN",
+                        "usa_val": -1,
+                        "player": [
+                            {
+                                "id": 28237,
+                                "team": "EUROPE",
+                                "teamcode": "EUR",
+                                "side": "AWAY",
+                                "firstname": "Rory",
+                                "lastname": "McIlroy",
+                                "tvname": "McIlroy",
+                                "nationality": "NIR",
+                                "orderinmatch": 3,
+                                "holesplayed": 15,
+                                "score": [
+                                    {
+                                        "hole": 1,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 2,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 3,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 4,
+                                        "strokes": 3,
+                                        "matchplayscore": "won"
+                                    },
+                                    {
+                                        "hole": 5,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 6,
+                                        "strokes": 4,
+                                        "matchplayscore": "won"
+                                    },
+                                    {
+                                        "hole": 7,
+                                        "strokes": 5,
+                                        "matchplayscore": "lost"
+                                    },
+                                    {
+                                        "hole": 8,
+                                        "strokes": 4,
+                                        "matchplayscore": "lost"
+                                    },
+                                    {
+                                        "hole": 9,
+                                        "strokes": 4,
+                                        "matchplayscore": "lost"
+                                    },
+                                    {
+                                        "hole": 10,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 11,
+                                        "strokes": 5,
+                                        "matchplayscore": "won"
+                                    },
+                                    {
+                                        "hole": 12,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 13,
+                                        "strokes": 2,
+                                        "matchplayscore": "won"
+                                    },
+                                    {
+                                        "hole": 14,
+                                        "strokes": 3,
+                                        "matchplayscore": "won"
+                                    },
+                                    {
+                                        "hole": 15,
+                                        "strokes": 5,
+                                        "matchplayscore": "lost"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 35314,
+                                "team": "EUROPE",
+                                "teamcode": "EUR",
+                                "side": "AWAY",
+                                "firstname": "Andy",
+                                "lastname": "Sullivan",
+                                "tvname": "Sullivan",
+                                "nationality": "ENG",
+                                "orderinmatch": 4,
+                                "holesplayed": 15,
+                                "score": [
+                                    {
+                                        "hole": 1,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 2,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 3,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 4,
+                                        "strokes": 3,
+                                        "matchplayscore": "won"
+                                    },
+                                    {
+                                        "hole": 5,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 6,
+                                        "strokes": 4,
+                                        "matchplayscore": "won"
+                                    },
+                                    {
+                                        "hole": 7,
+                                        "strokes": 5,
+                                        "matchplayscore": "lost"
+                                    },
+                                    {
+                                        "hole": 8,
+                                        "strokes": 4,
+                                        "matchplayscore": "lost"
+                                    },
+                                    {
+                                        "hole": 9,
+                                        "strokes": 4,
+                                        "matchplayscore": "lost"
+                                    },
+                                    {
+                                        "hole": 10,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 11,
+                                        "strokes": 5,
+                                        "matchplayscore": "won"
+                                    },
+                                    {
+                                        "hole": 12,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 13,
+                                        "strokes": 2,
+                                        "matchplayscore": "won"
+                                    },
+                                    {
+                                        "hole": 14,
+                                        "strokes": 3,
+                                        "matchplayscore": "won"
+                                    },
+                                    {
+                                        "hole": 15,
+                                        "strokes": 5,
+                                        "matchplayscore": "lost"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 1810,
+                                "team": "USA",
+                                "teamcode": "USA",
+                                "side": "HOME",
+                                "firstname": "Phil",
+                                "lastname": "Mickelson",
+                                "tvname": "Mickelson",
+                                "nationality": "USA",
+                                "orderinmatch": 1,
+                                "holesplayed": 15,
+                                "score": [
+                                    {
+                                        "hole": 1,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 2,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 3,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 4,
+                                        "strokes": 4,
+                                        "matchplayscore": "lost"
+                                    },
+                                    {
+                                        "hole": 5,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 6,
+                                        "strokes": 7,
+                                        "matchplayscore": "lost"
+                                    },
+                                    {
+                                        "hole": 7,
+                                        "strokes": 3,
+                                        "matchplayscore": "won"
+                                    },
+                                    {
+                                        "hole": 8,
+                                        "strokes": 2,
+                                        "matchplayscore": "won"
+                                    },
+                                    {
+                                        "hole": 9,
+                                        "strokes": 3,
+                                        "matchplayscore": "won"
+                                    },
+                                    {
+                                        "hole": 10,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 11,
+                                        "strokes": 6,
+                                        "matchplayscore": "lost"
+                                    },
+                                    {
+                                        "hole": 12,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 13,
+                                        "strokes": 3,
+                                        "matchplayscore": "lost"
+                                    },
+                                    {
+                                        "hole": 14,
+                                        "strokes": 4,
+                                        "matchplayscore": "lost"
+                                    },
+                                    {
+                                        "hole": 15,
+                                        "strokes": 4,
+                                        "matchplayscore": "won"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 32102,
+                                "team": "USA",
+                                "teamcode": "USA",
+                                "side": "HOME",
+                                "firstname": "Rickie",
+                                "lastname": "Fowler",
+                                "tvname": "Fowler",
+                                "nationality": "USA",
+                                "orderinmatch": 2,
+                                "holesplayed": 15,
+                                "score": [
+                                    {
+                                        "hole": 1,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 2,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 3,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 4,
+                                        "strokes": 4,
+                                        "matchplayscore": "lost"
+                                    },
+                                    {
+                                        "hole": 5,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 6,
+                                        "strokes": 7,
+                                        "matchplayscore": "lost"
+                                    },
+                                    {
+                                        "hole": 7,
+                                        "strokes": 3,
+                                        "matchplayscore": "won"
+                                    },
+                                    {
+                                        "hole": 8,
+                                        "strokes": 2,
+                                        "matchplayscore": "won"
+                                    },
+                                    {
+                                        "hole": 9,
+                                        "strokes": 3,
+                                        "matchplayscore": "won"
+                                    },
+                                    {
+                                        "hole": 10,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 11,
+                                        "strokes": 6,
+                                        "matchplayscore": "lost"
+                                    },
+                                    {
+                                        "hole": 12,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 13,
+                                        "strokes": 3,
+                                        "matchplayscore": "lost"
+                                    },
+                                    {
+                                        "hole": 14,
+                                        "strokes": 4,
+                                        "matchplayscore": "lost"
+                                    },
+                                    {
+                                        "hole": 15,
+                                        "strokes": 4,
+                                        "matchplayscore": "won"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "no": 3,
+                        "matchstatus": "Playing",
+                        "matchtype": "Foursomes",
+                        "teetime": "08:05:00.0000000",
+                        "eur": "2 DN",
+                        "eur_val": -2,
+                        "holesplayed": 14,
+                        "usa": "2 UP",
+                        "usa_val": 2,
+                        "player": [
+                            {
+                                "id": 21209,
+                                "team": "EUROPE",
+                                "teamcode": "EUR",
+                                "side": "AWAY",
+                                "firstname": "Sergio",
+                                "lastname": "Garcia",
+                                "tvname": "Garcia",
+                                "nationality": "ESP",
+                                "orderinmatch": 3,
+                                "holesplayed": 14,
+                                "score": [
+                                    {
+                                        "hole": 1,
+                                        "strokes": 5,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 2,
+                                        "strokes": 4,
+                                        "matchplayscore": "won"
+                                    },
+                                    {
+                                        "hole": 3,
+                                        "strokes": 5,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 4,
+                                        "strokes": 3,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 5,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 6,
+                                        "strokes": 5,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 7,
+                                        "strokes": 3,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 8,
+                                        "strokes": 3,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 9,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 10,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 11,
+                                        "strokes": 5,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 12,
+                                        "strokes": 5,
+                                        "matchplayscore": "lost"
+                                    },
+                                    {
+                                        "hole": 13,
+                                        "strokes": 3,
+                                        "matchplayscore": "lost"
+                                    },
+                                    {
+                                        "hole": 14,
+                                        "strokes": 4,
+                                        "matchplayscore": "lost"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 27408,
+                                "team": "EUROPE",
+                                "teamcode": "EUR",
+                                "side": "AWAY",
+                                "firstname": "Martin",
+                                "lastname": "Kaymer",
+                                "tvname": "Kaymer",
+                                "nationality": "GER",
+                                "orderinmatch": 4,
+                                "holesplayed": 14,
+                                "score": [
+                                    {
+                                        "hole": 1,
+                                        "strokes": 5,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 2,
+                                        "strokes": 4,
+                                        "matchplayscore": "won"
+                                    },
+                                    {
+                                        "hole": 3,
+                                        "strokes": 5,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 4,
+                                        "strokes": 3,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 5,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 6,
+                                        "strokes": 5,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 7,
+                                        "strokes": 3,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 8,
+                                        "strokes": 3,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 9,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 10,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 11,
+                                        "strokes": 5,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 12,
+                                        "strokes": 5,
+                                        "matchplayscore": "lost"
+                                    },
+                                    {
+                                        "hole": 13,
+                                        "strokes": 3,
+                                        "matchplayscore": "lost"
+                                    },
+                                    {
+                                        "hole": 14,
+                                        "strokes": 4,
+                                        "matchplayscore": "lost"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 25632,
+                                "team": "USA",
+                                "teamcode": "USA",
+                                "side": "HOME",
+                                "firstname": "Jimmy",
+                                "lastname": "Walker",
+                                "tvname": "Walker",
+                                "nationality": "USA",
+                                "orderinmatch": 1,
+                                "holesplayed": 14,
+                                "score": [
+                                    {
+                                        "hole": 1,
+                                        "strokes": 5,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 2,
+                                        "strokes": 5,
+                                        "matchplayscore": "lost"
+                                    },
+                                    {
+                                        "hole": 3,
+                                        "strokes": 5,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 4,
+                                        "strokes": 3,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 5,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 6,
+                                        "strokes": 5,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 7,
+                                        "strokes": 3,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 8,
+                                        "strokes": 3,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 9,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 10,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 11,
+                                        "strokes": 5,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 12,
+                                        "strokes": 4,
+                                        "matchplayscore": "won"
+                                    },
+                                    {
+                                        "hole": 13,
+                                        "strokes": 2,
+                                        "matchplayscore": "won"
+                                    },
+                                    {
+                                        "hole": 14,
+                                        "strokes": 3,
+                                        "matchplayscore": "won"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 24024,
+                                "team": "USA",
+                                "teamcode": "USA",
+                                "side": "HOME",
+                                "firstname": "Zach",
+                                "lastname": "Johnson",
+                                "tvname": "Z Johnson",
+                                "nationality": "USA",
+                                "orderinmatch": 2,
+                                "holesplayed": 14,
+                                "score": [
+                                    {
+                                        "hole": 1,
+                                        "strokes": 5,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 2,
+                                        "strokes": 5,
+                                        "matchplayscore": "lost"
+                                    },
+                                    {
+                                        "hole": 3,
+                                        "strokes": 5,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 4,
+                                        "strokes": 3,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 5,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 6,
+                                        "strokes": 5,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 7,
+                                        "strokes": 3,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 8,
+                                        "strokes": 3,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 9,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 10,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 11,
+                                        "strokes": 5,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 12,
+                                        "strokes": 4,
+                                        "matchplayscore": "won"
+                                    },
+                                    {
+                                        "hole": 13,
+                                        "strokes": 2,
+                                        "matchplayscore": "won"
+                                    },
+                                    {
+                                        "hole": 14,
+                                        "strokes": 3,
+                                        "matchplayscore": "won"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "no": 1,
+                        "matchstatus": "Finished",
+                        "matchtype": "Foursomes",
+                        "teetime": "07:35:00.0000000",
+                        "usa": "3&amp;2",
+                        "usa_val": 3,
+                        "holesplayed": 16,
+                        "eur": "Lost",
+                        "eur_val": -3,
+                        "player": [
+                            {
+                                "id": 34046,
+                                "team": "USA",
+                                "teamcode": "USA",
+                                "side": "HOME",
+                                "firstname": "Jordan",
+                                "lastname": "Spieth",
+                                "tvname": "Spieth",
+                                "nationality": "USA",
+                                "orderinmatch": 1,
+                                "holesplayed": 16,
+                                "score": [
+                                    {
+                                        "hole": 1,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 2,
+                                        "strokes": 3,
+                                        "matchplayscore": "won"
+                                    },
+                                    {
+                                        "hole": 3,
+                                        "strokes": 4,
+                                        "matchplayscore": "won"
+                                    },
+                                    {
+                                        "hole": 4,
+                                        "strokes": 3,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 5,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 6,
+                                        "strokes": 5,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 7,
+                                        "strokes": 3,
+                                        "matchplayscore": "won"
+                                    },
+                                    {
+                                        "hole": 8,
+                                        "strokes": 3,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 9,
+                                        "strokes": 5,
+                                        "matchplayscore": "lost"
+                                    },
+                                    {
+                                        "hole": 10,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 11,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 12,
+                                        "strokes": 5,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 13,
+                                        "strokes": 3,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 14,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 15,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 16,
+                                        "strokes": 4,
+                                        "matchplayscore": "won"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 34360,
+                                "team": "USA",
+                                "teamcode": "USA",
+                                "side": "HOME",
+                                "firstname": "Patrick",
+                                "lastname": "Reed",
+                                "tvname": "Reed",
+                                "nationality": "USA",
+                                "orderinmatch": 2,
+                                "holesplayed": 16,
+                                "score": [
+                                    {
+                                        "hole": 1,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 2,
+                                        "strokes": 3,
+                                        "matchplayscore": "won"
+                                    },
+                                    {
+                                        "hole": 3,
+                                        "strokes": 4,
+                                        "matchplayscore": "won"
+                                    },
+                                    {
+                                        "hole": 4,
+                                        "strokes": 3,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 5,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 6,
+                                        "strokes": 5,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 7,
+                                        "strokes": 3,
+                                        "matchplayscore": "won"
+                                    },
+                                    {
+                                        "hole": 8,
+                                        "strokes": 3,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 9,
+                                        "strokes": 5,
+                                        "matchplayscore": "lost"
+                                    },
+                                    {
+                                        "hole": 10,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 11,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 12,
+                                        "strokes": 5,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 13,
+                                        "strokes": 3,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 14,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 15,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 16,
+                                        "strokes": 4,
+                                        "matchplayscore": "won"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 21528,
+                                "team": "EUROPE",
+                                "teamcode": "EUR",
+                                "side": "AWAY",
+                                "firstname": "Henrik",
+                                "lastname": "Stenson",
+                                "tvname": "Stenson",
+                                "nationality": "SWE",
+                                "orderinmatch": 3,
+                                "holesplayed": 16,
+                                "score": [
+                                    {
+                                        "hole": 1,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 2,
+                                        "strokes": 4,
+                                        "matchplayscore": "lost"
+                                    },
+                                    {
+                                        "hole": 3,
+                                        "strokes": 5,
+                                        "matchplayscore": "lost"
+                                    },
+                                    {
+                                        "hole": 4,
+                                        "strokes": 3,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 5,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 6,
+                                        "strokes": 5,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 7,
+                                        "strokes": 4,
+                                        "matchplayscore": "lost"
+                                    },
+                                    {
+                                        "hole": 8,
+                                        "strokes": 3,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 9,
+                                        "strokes": 4,
+                                        "matchplayscore": "won"
+                                    },
+                                    {
+                                        "hole": 10,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 11,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 12,
+                                        "strokes": 5,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 13,
+                                        "strokes": 3,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 14,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 15,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 16,
+                                        "strokes": 5,
+                                        "matchplayscore": "lost"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 22405,
+                                "team": "EUROPE",
+                                "teamcode": "EUR",
+                                "side": "AWAY",
+                                "firstname": "Justin",
+                                "lastname": "Rose",
+                                "tvname": "Rose",
+                                "nationality": "ENG",
+                                "orderinmatch": 4,
+                                "holesplayed": 16,
+                                "score": [
+                                    {
+                                        "hole": 1,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 2,
+                                        "strokes": 4,
+                                        "matchplayscore": "lost"
+                                    },
+                                    {
+                                        "hole": 3,
+                                        "strokes": 5,
+                                        "matchplayscore": "lost"
+                                    },
+                                    {
+                                        "hole": 4,
+                                        "strokes": 3,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 5,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 6,
+                                        "strokes": 5,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 7,
+                                        "strokes": 4,
+                                        "matchplayscore": "lost"
+                                    },
+                                    {
+                                        "hole": 8,
+                                        "strokes": 3,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 9,
+                                        "strokes": 4,
+                                        "matchplayscore": "won"
+                                    },
+                                    {
+                                        "hole": 10,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 11,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 12,
+                                        "strokes": 5,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 13,
+                                        "strokes": 3,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 14,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 15,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 16,
+                                        "strokes": 5,
+                                        "matchplayscore": "lost"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "no": 4,
+                        "matchstatus": "Playing",
+                        "matchtype": "Foursomes",
+                        "teetime": "08:20:00.0000000",
+                        "eur": "5 DN",
+                        "eur_val": -5,
+                        "holesplayed": 13,
+                        "usa": "5 UP",
+                        "usa_val": 5,
+                        "player": [
+                            {
+                                "id": 20396,
+                                "team": "EUROPE",
+                                "teamcode": "EUR",
+                                "side": "AWAY",
+                                "firstname": "Lee",
+                                "lastname": "Westwood",
+                                "tvname": "Westwood",
+                                "nationality": "ENG",
+                                "orderinmatch": 3,
+                                "holesplayed": 14,
+                                "score": [
+                                    {
+                                        "hole": 1,
+                                        "strokes": 5,
+                                        "matchplayscore": "lost"
+                                    },
+                                    {
+                                        "hole": 2,
+                                        "strokes": 5,
+                                        "matchplayscore": "lost"
+                                    },
+                                    {
+                                        "hole": 3,
+                                        "strokes": 5,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 4,
+                                        "strokes": 3,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 5,
+                                        "strokes": 4,
+                                        "matchplayscore": "lost"
+                                    },
+                                    {
+                                        "hole": 6,
+                                        "strokes": 5,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 7,
+                                        "strokes": 6,
+                                        "matchplayscore": "lost"
+                                    },
+                                    {
+                                        "hole": 8,
+                                        "strokes": 3,
+                                        "matchplayscore": "lost"
+                                    },
+                                    {
+                                        "hole": 9,
+                                        "strokes": 4,
+                                        "matchplayscore": "won"
+                                    },
+                                    {
+                                        "hole": 10,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 11,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 12,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 13,
+                                        "strokes": 4,
+                                        "matchplayscore": "lost"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 33293,
+                                "team": "EUROPE",
+                                "teamcode": "EUR",
+                                "side": "AWAY",
+                                "firstname": "Thomas",
+                                "lastname": "Pieters",
+                                "tvname": "Pieters",
+                                "nationality": "BEL",
+                                "orderinmatch": 4,
+                                "holesplayed": 14,
+                                "score": [
+                                    {
+                                        "hole": 1,
+                                        "strokes": 5,
+                                        "matchplayscore": "lost"
+                                    },
+                                    {
+                                        "hole": 2,
+                                        "strokes": 5,
+                                        "matchplayscore": "lost"
+                                    },
+                                    {
+                                        "hole": 3,
+                                        "strokes": 5,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 4,
+                                        "strokes": 3,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 5,
+                                        "strokes": 4,
+                                        "matchplayscore": "lost"
+                                    },
+                                    {
+                                        "hole": 6,
+                                        "strokes": 5,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 7,
+                                        "strokes": 6,
+                                        "matchplayscore": "lost"
+                                    },
+                                    {
+                                        "hole": 8,
+                                        "strokes": 3,
+                                        "matchplayscore": "lost"
+                                    },
+                                    {
+                                        "hole": 9,
+                                        "strokes": 4,
+                                        "matchplayscore": "won"
+                                    },
+                                    {
+                                        "hole": 10,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 11,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 12,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 13,
+                                        "strokes": 4,
+                                        "matchplayscore": "lost"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 30925,
+                                "team": "USA",
+                                "teamcode": "USA",
+                                "side": "HOME",
+                                "firstname": "Dustin",
+                                "lastname": "Johnson",
+                                "tvname": "D Johnson",
+                                "nationality": "USA",
+                                "orderinmatch": 1,
+                                "holesplayed": 13,
+                                "score": [
+                                    {
+                                        "hole": 1,
+                                        "strokes": 4,
+                                        "matchplayscore": "won"
+                                    },
+                                    {
+                                        "hole": 2,
+                                        "strokes": 4,
+                                        "matchplayscore": "won"
+                                    },
+                                    {
+                                        "hole": 3,
+                                        "strokes": 5,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 4,
+                                        "strokes": 3,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 5,
+                                        "strokes": 3,
+                                        "matchplayscore": "won"
+                                    },
+                                    {
+                                        "hole": 6,
+                                        "strokes": 5,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 7,
+                                        "strokes": 4,
+                                        "matchplayscore": "won"
+                                    },
+                                    {
+                                        "hole": 8,
+                                        "strokes": 2,
+                                        "matchplayscore": "won"
+                                    },
+                                    {
+                                        "hole": 9,
+                                        "strokes": 5,
+                                        "matchplayscore": "lost"
+                                    },
+                                    {
+                                        "hole": 10,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 11,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 12,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 13,
+                                        "strokes": 3,
+                                        "matchplayscore": "won"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 23108,
+                                "team": "USA",
+                                "teamcode": "USA",
+                                "side": "HOME",
+                                "firstname": "Matt",
+                                "lastname": "Kuchar",
+                                "tvname": "Kuchar",
+                                "nationality": "USA",
+                                "orderinmatch": 2,
+                                "holesplayed": 13,
+                                "score": [
+                                    {
+                                        "hole": 1,
+                                        "strokes": 4,
+                                        "matchplayscore": "won"
+                                    },
+                                    {
+                                        "hole": 2,
+                                        "strokes": 4,
+                                        "matchplayscore": "won"
+                                    },
+                                    {
+                                        "hole": 3,
+                                        "strokes": 5,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 4,
+                                        "strokes": 3,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 5,
+                                        "strokes": 3,
+                                        "matchplayscore": "won"
+                                    },
+                                    {
+                                        "hole": 6,
+                                        "strokes": 5,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 7,
+                                        "strokes": 4,
+                                        "matchplayscore": "won"
+                                    },
+                                    {
+                                        "hole": 8,
+                                        "strokes": 2,
+                                        "matchplayscore": "won"
+                                    },
+                                    {
+                                        "hole": 9,
+                                        "strokes": 5,
+                                        "matchplayscore": "lost"
+                                    },
+                                    {
+                                        "hole": 10,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 11,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 12,
+                                        "strokes": 4,
+                                        "matchplayscore": "halved"
+                                    },
+                                    {
+                                        "hole": 13,
+                                        "strokes": 3,
+                                        "matchplayscore": "won"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}
