@@ -9,3 +9,6 @@ Add sometime,
 - message object types
 - add each person's name
 - add positions?
+
+
+Used this to look at golf scores in real time...save to db
