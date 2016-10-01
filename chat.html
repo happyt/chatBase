@@ -35,11 +35,11 @@ tr:nth-child(even) {
       <div id="mst">
         mst...
       </div>
-      <div id="leeds">
-        leeds...
-      </div>
       <div id="ssn">
         ssn...
+      </div>
+      <div id="leeds">
+        leeds...not in use
       </div>
       <div id="default">
         default...
@@ -75,10 +75,16 @@ tr:nth-child(even) {
             
               break;
           case "ssn":
-              $('#ssn').html(msg.time); 
+              $('#ssn').html("<div>SSN: " + msg.time + "</div>"); 
+              $('#ssn').append('<table>'); 
               for(var i = 1; i <= msg.matches.length; i++) {
-                $('#ssn').append('<div id="page' + i + '" class="score">ssn' + msg.matches[i].result + '</ div>' )
+                $('#ssn').append('<tr>'); 
+                $('#ssn').append('<td id="page' + i + '" class="score">' + msg.matches[i].holesPlayed + '</td>' )
+                $('#ssn').append('<td id="page' + i + '" class="score">' + msg.matches[i].result + '</td>' )
+                $('#ssn').append('<td id="page' + i + '" class="score">' + msg.matches[i].score + '</td>' )
+                $('#ssn').append('</tr>'); 
               }  
+              $('#ssn').append('</table>'); 
               break;     
           case "leeds":
               $('#leeds').html(msg.time);      
