@@ -12,6 +12,23 @@
       #messages li { padding: 5px 10px; }
       #messages li:nth-child(odd) { background: #eee; }
     </style>
+    <style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
   </head>
   <body>
     <div>
@@ -45,16 +62,29 @@
    //     $('#messages').append($('<li>').text(msg.title));
         switch(msg.title) {
           case "mst":
-              $('#mst').html(msg.time);  
+              $('#mst').html("<div>MST: " + msg.time + "</div>"); 
+              $('#mst').append('<table>'); 
               for(var i = 1; i <= msg.matches.length; i++) {
-                $('#mst').append('<div id="page' + i + '" class="score">' + msg.matches[i].result + '</ div>' )
+                $('#mst').append('<tr>'); 
+                $('#mst').append('<td id="page' + i + '" class="score">' + msg.matches[i].holesPlayed + '</td>' )
+                $('#mst').append('<td id="page' + i + '" class="score">' + msg.matches[i].result + '</td>' )
+                $('#mst').append('<td id="page' + i + '" class="score">' + msg.matches[i].score + '</td>' )
+                $('#mst').append('</tr>'); 
               }  
+              $('#mst').append('</table>'); 
+            
               break;
           case "ssn":
               $('#ssn').html(msg.time); 
+              for(var i = 1; i <= msg.matches.length; i++) {
+                $('#ssn').append('<div id="page' + i + '" class="score">ssn' + msg.matches[i].result + '</ div>' )
+              }  
               break;     
           case "leeds":
               $('#leeds').html(msg.time);      
+              for(var i = 1; i <= msg.matches.length; i++) {
+                $('#leeds').append('<div id="page' + i + '" class="score">lee' + msg.matches[i].result + '</ div>' )
+              }  
               break;
           default:
               $('#default').html(msg.time);
