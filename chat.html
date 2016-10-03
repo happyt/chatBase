@@ -32,8 +32,43 @@ tr:nth-child(even) {
   </head>
   <body>
     <div>
+      <div id="a1-2">here</div>
       <div id="mst">
-        mst...
+        <table>
+          <tr class="h1-1"><td>test</td></tr>
+          <tr class="h1-2"><td>test</td></tr>
+          <tr class="h1-3"><td>test</td></tr>
+          <tr class="h1-4"><td>test</td></tr>
+          <tr><td>22</td></tr>
+          <tr class="h2-1"><td>test</td></tr>
+          <tr class="h2-2"><td>test</td></tr>
+          <tr class="h2-3"><td>test</td></tr>
+          <tr class="h2-4"><td>test</td></tr>
+          <tr><td>33</td></tr>
+          <tr class="h3-1"><td>test</td></tr>
+          <tr class="h3-2"><td>test</td></tr>
+          <tr class="h3-3"><td>test</td></tr>
+          <tr class="h3-4"><td>test</td></tr>
+          <tr><td>44</td></tr>
+          <tr class="h4-1"><td>test</td></tr>
+          <tr class="h4-2"><td>test</td></tr>
+          <tr class="h4-3"><td>test</td></tr>
+          <tr class="h4-4"><td>test</td></tr>
+          <tr><td>55</td></tr>
+          <tr class="h5-1"><td>test</td></tr>
+          <tr class="h5-2"><td>test</td></tr>
+          <tr class="h5-3"><td>test</td></tr>
+          <tr class="h5-4"><td>test</td></tr>
+          <tr class="h5-5"><td>test</td></tr>
+          <tr class="h5-6"><td>test</td></tr>
+          <tr class="h5-7"><td>test</td></tr>
+          <tr class="h5-8"><td>test</td></tr>
+          <tr class="h5-9"><td>test</td></tr>
+          <tr class="h5-10"><td>test</td></tr>
+          <tr class="h5-11"><td>test</td></tr>
+          <tr class="h5-12"><td>test</td></tr>
+          <tr>xx</tr>
+          </table>
       </div>
       <div id="ssn">
         ssn...
@@ -62,17 +97,18 @@ tr:nth-child(even) {
    //     $('#messages').append($('<li>').text(msg.title));
         switch(msg.title) {
           case "mst":
-              $('#mst').html("<div>MST: " + msg.time + "</div>"); 
-              $('#mst').append('<table>'); 
-              for(var i = 1; i <= msg.matches.length; i++) {
-                $('#mst').append('<tr>'); 
-                $('#mst').append('<td id="page' + i + '" class="score">' + msg.matches[i].holesPlayed + '</td>' )
-                $('#mst').append('<td id="page' + i + '" class="score">' + msg.matches[i].result + '</td>' )
-                $('#mst').append('<td id="page' + i + '" class="score">' + msg.matches[i].score + '</td>' )
-                $('#mst').append('</tr>'); 
-              }  
-              $('#mst').append('</table>'); 
-            
+              var tt = "#a1-2";
+              $(tt).html("<div>wow123</div>");
+              for(var i = 0; i < msg.matches.length; i++) {
+         //        console.log(i, ":", msg.matches[i].round);
+
+                  tt = "#h" + msg.matches[i].round + "-" + msg.matches[i].match;
+                  $(tt).html('<td>alpha</td>'); 
+                  $(tt).append('<td class="score">' + msg.matches[i].result + '</td>' )
+                  $(tt).append('<td class="score">' + msg.matches[i].score + '</td>' )
+                  $(tt).append('<td class="score">' + msg.matches[i].holesPlayed + '</td>' )
+                }  
+                
               break;
           case "ssn":
               $('#ssn').html("<div>SSN: " + msg.time + "</div>"); 

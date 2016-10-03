@@ -78,18 +78,23 @@ function myTimer() {
             // get the data
                 switch(feed.title) {
                 case "mst":
-                    output.message = "test mst2";  
+                    output.message = "test mst";  
                     jsonObj = xml2json.parser( body );
                //        console.log(jsonObj.event.round[0]);
-                    
+                    var rnd = 0;
+                    var mNo = 0;
                     for (var i = 0, len = jsonObj.event.round.length; i < len; i++) {
+                        rnd = jsonObj.event.round[i].no;
                         for (var j = 0, jlen = jsonObj.event.round[i].matches.match.length; j < jlen; j++) {
-                            match =   jsonObj.event.round[i].matches.match[j];
+                            mNo = jsonObj.event.round[i].matches.match[j].no;
+                            match = jsonObj.event.round[i].matches.match[j];
                             var m = {
                                 holesPlayed : 0,
                                 score: 0,
                                 result: "-"
                             }
+                            m.round = rnd;
+                            m.match = mNo;
                             m.holesPlayed = match.holesplayed;
                             if (!isEmpty(match.usa_val)) {
                                 m.score = match.usa_val;
@@ -103,7 +108,7 @@ function myTimer() {
                                 m.result = 0;
                             }
                             matches.push(m);
-                               console.log(m);
+     //                          console.log("add - ", matches.length, m.round);
                         }
                     }
                     break;
@@ -117,6 +122,8 @@ function myTimer() {
                         for (var j = 0, mlen = mps.matchPlayMatches.length; j < mlen; j++) {
                             var m = {};
                             match =   mps.matchPlayMatches[j];
+                            m.round = 1;
+                            m.match = 1;
                             m.holesPlayed = match.holesPlayed;
                             m.score = match.score;
                             m.result = "?" + match.result;
@@ -154,7 +161,7 @@ console.log(match.score);
                             }
 
                             matches.push(m);
-                               console.log(m);
+                               console.log(matches.length, m.round);
                     }
 
                     break;
