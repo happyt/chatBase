@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chat</title>
+    </head>
+    <body>
+        <input id="data"/>
+        <input type="button" onclick="sendData()" value="SEND" />
+        <div id="log"></div>
+        <script src="/socket.io/socket.io.js"></script>
+
+        <script>
+            var inputData = document.getElementById("data");
+            var logs = document.getElementById("log");
+            var socket = io();
+            
+            socket.on('news', function (text) {
+                console.log(text);
+            });
+
+            socket.on('chat', function (data) {
+                console.log(JSON.stringify(data));
+                var node = document.createElement("div");                 // Create a <li> node
+                var textnode = document.createTextNode(data.msg);
+                node.appendChild(textnode); 
+                logs.appendChild(node);
+            });
+
+            // when the client clicks SEND
+            var sendData = function() {
+                var message = inputData.value;
+                inputData.value = "";
+                // send server a 'dataIn' and send one parameter
+                socket.emit('chat', {msg: message});
+            };
+
+        </script>
+    </body>
+</html>

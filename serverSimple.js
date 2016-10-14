@@ -21,6 +21,7 @@ io.on('connection', function(socket){
   console.log('a user connected');
   socket.broadcast.emit('hi');
   socket.on('chat', function(msg){
+    console.log(msg, "...")
     io.emit('chat', msg);
   });
   socket.on('disconnect', function () {

@@ -4,7 +4,7 @@
  * configuration data
  */
 module.exports = {
-  port: 3000,
+  port: 3001,
   polltime: 4,
   timecount: 60,
   databaseURI : "localhost:27017/logger",
