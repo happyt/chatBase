@@ -78,18 +78,37 @@ function myTimer() {
             // get the data
                 switch(feed.title) {
                 case "mst":
-                    output.message = "test mst2";  
+                    output.message = "test mst";  
                     jsonObj = xml2json.parser( body );
                //        console.log(jsonObj.event.round[0]);
-                    
+                    var rnd = 0;
+                    var mNo = 0;
                     for (var i = 0, len = jsonObj.event.round.length; i < len; i++) {
+                        rnd = jsonObj.event.round[i].no;
                         for (var j = 0, jlen = jsonObj.event.round[i].matches.match.length; j < jlen; j++) {
-                            match =   jsonObj.event.round[i].matches.match[i];
-                            var m = {};
+                            mNo = jsonObj.event.round[i].matches.match[j].no;
+                            match = jsonObj.event.round[i].matches.match[j];
+                            var m = {
+                                holesPlayed : 0,
+                                score: 0,
+                                result: "-"
+                            }
+                            m.round = rnd;
+                            m.match = mNo;
                             m.holesPlayed = match.holesplayed;
-                            m.score = match.usa_val;
-                            m.result = match.usa;
+                            if (!isEmpty(match.usa_val)) {
+                                m.score = match.usa_val;
+                            } else {
+                                m.score = 0;                                
+                            }
+
+                            if (!isEmpty(match.usa)) {
+                                m.result = match.usa;
+                            } else {
+                                m.result = 0;
+                            }
                             matches.push(m);
+     //                          console.log("add - ", matches.length, m.round);
                         }
                     }
                     break;
@@ -103,10 +122,13 @@ function myTimer() {
                         for (var j = 0, mlen = mps.matchPlayMatches.length; j < mlen; j++) {
                             var m = {};
                             match =   mps.matchPlayMatches[j];
+                            m.round = 1;
+                            m.match = 1;
                             m.holesPlayed = match.holesPlayed;
                             m.score = match.score;
-                            m.result = match.result;
+                            m.result = "?" + match.result;
                             matches.push(m);
+                               console.log(m);
                         }
                     }
                     break;
@@ -117,13 +139,31 @@ function myTimer() {
 
                     for (var i = 0, len = jsonObj.tournament.matches.length; i < len; i++) {
                         var match = jsonObj.tournament.matches[i];
+                         
                        
-                            var m = {};
+                            var m = {
+                                holesPlayed : 0,
+                                score: 0,
+                                result: "-"
+                            }
+console.log(match.score);
                             m.holesPlayed = match.holesPlayed;
-                            m.score = match.score;
-                            m.result = match.result;
+                            if (match.score) {
+                                m.score = match.score;
+                            } else {
+                                m.score = 0;                                
+                            }
+
+                            if (match.result) {
+                                m.result = match.result;
+                            } else {
+                                m.result = 0;
+                            }
+
                             matches.push(m);
+                               console.log(matches.length, m.round);
                     }
+
                     break;
                 default:
                     output.message = "unknown feed";  
@@ -135,6 +175,9 @@ function myTimer() {
     });
 };
 
+function isEmpty(obj) {
+    return Object.keys(obj).length === 0 && obj.constructor === Object;
+}
 
 function getDateTime() {
     var date = new Date();

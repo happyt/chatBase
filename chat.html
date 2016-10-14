@@ -12,17 +12,69 @@
       #messages li { padding: 5px 10px; }
       #messages li:nth-child(odd) { background: #eee; }
     </style>
+    <style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
   </head>
   <body>
     <div>
+      <div id="a1-2">here</div>
       <div id="mst">
-        mst...
-      </div>
-      <div id="leeds">
-        leeds...
+        <table>
+          <tr class="h1-1"><td>test</td></tr>
+          <tr class="h1-2"><td>test</td></tr>
+          <tr class="h1-3"><td>test</td></tr>
+          <tr class="h1-4"><td>test</td></tr>
+          <tr><td>22</td></tr>
+          <tr class="h2-1"><td>test</td></tr>
+          <tr class="h2-2"><td>test</td></tr>
+          <tr class="h2-3"><td>test</td></tr>
+          <tr class="h2-4"><td>test</td></tr>
+          <tr><td>33</td></tr>
+          <tr class="h3-1"><td>test</td></tr>
+          <tr class="h3-2"><td>test</td></tr>
+          <tr class="h3-3"><td>test</td></tr>
+          <tr class="h3-4"><td>test</td></tr>
+          <tr><td>44</td></tr>
+          <tr class="h4-1"><td>test</td></tr>
+          <tr class="h4-2"><td>test</td></tr>
+          <tr class="h4-3"><td>test</td></tr>
+          <tr class="h4-4"><td>test</td></tr>
+          <tr><td>55</td></tr>
+          <tr class="h5-1"><td>test</td></tr>
+          <tr class="h5-2"><td>test</td></tr>
+          <tr class="h5-3"><td>test</td></tr>
+          <tr class="h5-4"><td>test</td></tr>
+          <tr class="h5-5"><td>test</td></tr>
+          <tr class="h5-6"><td>test</td></tr>
+          <tr class="h5-7"><td>test</td></tr>
+          <tr class="h5-8"><td>test</td></tr>
+          <tr class="h5-9"><td>test</td></tr>
+          <tr class="h5-10"><td>test</td></tr>
+          <tr class="h5-11"><td>test</td></tr>
+          <tr class="h5-12"><td>test</td></tr>
+          <tr>xx</tr>
+          </table>
       </div>
       <div id="ssn">
         ssn...
+      </div>
+      <div id="leeds">
+        leeds...not in use
       </div>
       <div id="default">
         default...
@@ -46,16 +98,36 @@
    //     $('#messages').append($('<li>').text(msg.title));
         switch(msg.title) {
           case "mst":
-              $('#mst').html(msg.time);  
-              for(var i = 1; i <= msg.matches.length; i++) {
-                $('#mst').append('<div id="page' + i + '" class="score">' + msg.matches[i].result + '</ div>' )
-              }  
+              var tt = "#a1-2";
+              $(tt).html("<div>wow123</div>");
+              for(var i = 0; i < msg.matches.length; i++) {
+         //        console.log(i, ":", msg.matches[i].round);
+
+                  tt = "#h" + msg.matches[i].round + "-" + msg.matches[i].match;
+                  $(tt).html('<td>alpha</td>'); 
+                  $(tt).append('<td class="score">' + msg.matches[i].result + '</td>' )
+                  $(tt).append('<td class="score">' + msg.matches[i].score + '</td>' )
+                  $(tt).append('<td class="score">' + msg.matches[i].holesPlayed + '</td>' )
+                }  
+                
               break;
           case "ssn":
-              $('#ssn').html(msg.time); 
+              $('#ssn').html("<div>SSN: " + msg.time + "</div>"); 
+              $('#ssn').append('<table>'); 
+              for(var i = 1; i <= msg.matches.length; i++) {
+                $('#ssn').append('<tr>'); 
+                $('#ssn').append('<td id="page' + i + '" class="score">' + msg.matches[i].holesPlayed + '</td>' )
+                $('#ssn').append('<td id="page' + i + '" class="score">' + msg.matches[i].result + '</td>' )
+                $('#ssn').append('<td id="page' + i + '" class="score">' + msg.matches[i].score + '</td>' )
+                $('#ssn').append('</tr>'); 
+              }  
+              $('#ssn').append('</table>'); 
               break;     
           case "leeds":
               $('#leeds').html(msg.time);      
+              for(var i = 1; i <= msg.matches.length; i++) {
+                $('#leeds').append('<div id="page' + i + '" class="score">lee' + msg.matches[i].result + '</ div>' )
+              }  
               break;
           default:
               $('#default').html(msg.time);
